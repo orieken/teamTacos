@@ -30,3 +30,7 @@ npm start
 * add all deps that need to be installed before you can run it
 * create deploy to heroku
 * add mongodb?
+
+## Reference
+
+* [Writing Reusable AngularJS Components with Bower](http://briantford.com/blog/angular-bower)
