@@ -4,6 +4,6 @@ block content
   div(ng-app="contactCards")
     div(ng-controller="cardsCtrl")
       h1= title
-
-      p {{ firstName }}
+      div(ng-repeat="card in cards")
+        p {{ card.firstName + " " + card.lastName}}
 
