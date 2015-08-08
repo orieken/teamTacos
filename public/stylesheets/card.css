@@ -1,0 +1,16 @@
+.contact-card {
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.title-bar {
+    color: #fff;
+    background-color: #337ab7;
+    display: block;
+    padding: 5px 5px 5px 20px;
+}
+
+.contact-details {
+    padding: 5px 5px 5px 20px;
+}
