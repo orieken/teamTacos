@@ -1,9 +1,13 @@
 extends layout
 
 block content
-  div(ng-app="contactCards")
-    div(ng-controller="cardsCtrl")
-      h1= title
-      div(ng-repeat="card in cards")
-        p {{ card.firstName + " " + card.lastName}}
+  div.fluid-container
+    div(ng-app="contactCards")
+      div(ng-controller="cardsCtrl")
+        h1= title
+        div.contact-card(ng-repeat="card in cards")
+          div.title-bar
+            p {{ card.firstName + " " + card.lastName}}
+          div.contact-details
+            p add contact details here
 
