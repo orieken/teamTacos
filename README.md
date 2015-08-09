@@ -3,6 +3,7 @@ making an angular app to get better at angular tests and js
 
 [ ![Codeship Status for orieken/teamTacos](https://codeship.com/projects/de5f3ca0-207c-0133-f5de-5ae45cb2c8e5/status?branch=master)](https://codeship.com/projects/95699)
 
+[deployued here](http://teamtacos.herokuapp.com/)
 
 ## deps
 
