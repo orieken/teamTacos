@@ -7,7 +7,11 @@ block content
         h1= title
         div.contact-card(ng-repeat="card in cards")
           div.title-bar
-            p {{ card.firstName + " " + card.lastName}}
+            div.title
+              div(ng-show="card.image").avatar
+                img(ng-src="{{card.image}}")
+              span.contact-name
+                h2 {{ card.firstName + " " + card.lastName}}
           div.contact-details
-            p add contact details here
+            p {{ card.email }}
 
